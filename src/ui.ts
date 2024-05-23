@@ -106,7 +106,7 @@ const pintarMensajes = (mensaje: string) => {
 const partidaCompleta = () => {
   if (esPartidaCompleta(tablero)) {
     cambiarEstadoAPartidaCompleta(tablero);
-    const mensaje = "🎊🎉 - Felicitaciones!!! Has ganado la partida! - 🎉🎊";
+    const mensaje = "🎊🎉 - Enhorabuena!!! Has ganado la partida! - 🎉🎊";
     pintarMensajes(mensaje);
   }
 };
