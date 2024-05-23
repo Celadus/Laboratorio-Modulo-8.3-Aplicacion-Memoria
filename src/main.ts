@@ -1,3 +1,7 @@
 import "./style.css";
 
-console.log("Hello Typescript!");
+import "./modelo"
+
+import "./motor"
+
+import "./ui";
