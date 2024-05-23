@@ -17,13 +17,14 @@ body {
 h1 {
   color: #0707f0;
   font-size: 36px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.intentos, .mensajesPartida {
+.intentos,
+.mensajesPartida {
   color: #0707f0;
   font-size: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .contenidoJuego {
@@ -34,8 +35,8 @@ h1 {
   padding: 20px;
   border: 1px solid e6fffd;
   background-color: #e6fffd;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Aggiungi l'effetto ombra */
-  transform: translateZ(10px); /* Aggiungi l'effetto di rilievo */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* l'effetto ombra */
+  transform: translateZ(10px); /* l'effetto di rilievo */
 }
 
 .cartas {
@@ -56,13 +57,12 @@ h1 {
 .imagen {
   width: 100px;
   border-radius: 8px;
-  background-color:#b799ff;
+  background-color: #b799ff;
 }
 
 .imagen:hover {
   transform: scale(1.1);
 }
-
 
 button {
   display: inline-block;
@@ -97,7 +97,7 @@ button:hover {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.229);
   background-color: #4458f3;
   font-size: 20px;
-  color:rgb(249, 252, 254)
+  color: rgb(249, 252, 254);
 }
 
 button:hover::before {
