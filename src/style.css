@@ -52,12 +52,16 @@ h1 {
 
 .cartas:hover {
   transform: scale(1.08);
+  transform: translateY(-5px) translateZ(10px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.229);
+  background-color: #76cfff;
+  color: rgb(249, 252, 254);
 }
 
 .imagen {
   width: 100px;
   border-radius: 8px;
-  background-color: #b799ff;
+  background-color: #aee2ff;
 }
 
 .imagen:hover {
