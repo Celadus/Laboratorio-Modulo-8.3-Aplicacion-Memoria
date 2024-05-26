@@ -1,7 +1,5 @@
-import "./style.css";
+import "./modelo";
 
-import "./modelo"
-
-import "./motor"
+import "./motor";
 
 import "./ui";
